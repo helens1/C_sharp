@@ -107,6 +107,7 @@ public class Inventario
 
         Console.Clear();
         Console.WriteLine();
+        
 
         Console.WriteLine("Ingreso de Productos al Inventario");
         Console.WriteLine("**********************************");

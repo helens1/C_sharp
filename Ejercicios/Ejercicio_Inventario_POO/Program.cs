@@ -28,8 +28,7 @@ namespace inventario
                         break;
                     case "2":
                         inventario.ingresoDeInventario();
-                        break;  
-                        
+                        break; 
                     case "3":
                         inventario.salidaDeInventario();
                         break;
