@@ -21,7 +21,7 @@ public class Aguila: Aves // <- Herencia
     public void Tamano()
     {
         DescribirTamano();
-        DescribirRaza();
+        DescribirEspecie();
     }
 
     private void DescribirTamano() // <- Encapsulamiento
@@ -29,7 +29,7 @@ public class Aguila: Aves // <- Herencia
         Console.WriteLine("Es una aguila mediana");
     }
 
-    private void DescribirRaza() // <- Encapsulamiento
+    private void DescribirEspecie() // <- Encapsulamiento
     {
       Console.WriteLine("Es aguila real");
     }

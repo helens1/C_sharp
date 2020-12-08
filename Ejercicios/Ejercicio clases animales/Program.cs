@@ -23,6 +23,7 @@ namespace _12_ejercicio_clase_animales
             g.Nombre = "Bigotes";
             g.Genero = "Masculino";
             g.Patas = 4;
+            g.EsDomestico = true;
             g.Pelaje = "Peludo";
             g.Comer();
             g.Caminar();
@@ -32,34 +33,47 @@ namespace _12_ejercicio_clase_animales
             b.Nombre = "Florindo";
             b.Genero = "Masculino";
             b.Patas = 4;
+            b.EsDomestico = true;
             b.Comer();
             b.Caminar();
             b.Rebuznar();
 
 
             Aguila a = new Aguila();
-            b.Nombre = "Ciro";
-            b.Genero = "Masculino";
-            b.Plumaje = "Color gris oscuro uniforme";
-            b.Comer();
-            b.Volar();
-            b.Chillar();
+            a.Nombre = "Ciro";
+            a.Genero = "Masculino";
+            a.Plumaje = "Color gris oscuro uniforme";
+            a.EsSalvaje = true;
+            a.Comer();
+            a.Volar();
+            a.Chillar();
 
             Loro l = new Loro();
             l.Nombre = "Lucas";
             l.Genero = "Masculino";
             l.Plumaje = "Color verde";
+            l.EsDomestico = true;
             l.Comer();
             l.Volar();
             l.Hablar();
 
-            Buho b = new Buho();
-            b.Nombre = "Lucifer";
-            b.Genero = "Masculino";
-            b.Plumaje = "Color cafe";
-            b.Comer();
-            b.Volar();
-            b.Chilla();
+            Buho buho = new Buho();
+            buho.Nombre = "Lucifer";
+            buho.Genero = "Masculino";
+            buho.Plumaje = "Color cafe";
+            buho.EsSalvaje = true;
+            buho.Comer();
+            buho.Volar();
+            buho.Chilla();
+
+            PezGlobo pez = new PezGlobo();
+            pez.Nombre = "Globito";
+            pez.Genero = "Masculino";
+            pez.Piel_o_Escamas = "No posee escamas. Su piel es aspera";
+            pez.EsSalvaje = true;
+            pez.Comer();
+            pez.Nadar();
+            pez.Inflarse();
 
         }
     }

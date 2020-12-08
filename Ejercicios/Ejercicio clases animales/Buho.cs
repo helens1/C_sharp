@@ -21,7 +21,7 @@ public class Buho: Aves // <- Herencia
     public void Tamano()
     {
         DescribirTamano();
-        DescribirRaza();
+        DescribirEspecie();
     }
 
     private void DescribirTamano() // <- Encapsulamiento

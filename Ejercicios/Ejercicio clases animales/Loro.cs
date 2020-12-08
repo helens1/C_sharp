@@ -8,7 +8,7 @@ public class Loro: Aves // <- Herencia
         EsDomestico = true;
     }
 
-    public Aguila(bool esDomestico) // <- Polimorfismo
+    public Loro(bool esDomestico) // <- Polimorfismo
     {
         EsDomestico = esDomestico;
     }
