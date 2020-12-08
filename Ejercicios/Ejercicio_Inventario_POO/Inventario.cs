@@ -5,6 +5,7 @@ public class Inventario
 {
     public List<Producto> ListadeProductos { get; set; }
     public Inventario()
+    
     {
         ListadeProductos = new List<Producto>();
 
@@ -107,7 +108,7 @@ public class Inventario
 
         Console.Clear();
         Console.WriteLine();
-        
+
 
         Console.WriteLine("Ingreso de Productos al Inventario");
         Console.WriteLine("**********************************");
